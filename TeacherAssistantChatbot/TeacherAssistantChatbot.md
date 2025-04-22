@@ -26,16 +26,16 @@ Be encouraging , friendly and supportive.
 
 
 
- ## Fine-Tuning Process
+ ### Fine-Tuning Process
  
 
  ### 1. **Tone & Personality**
-- Use a **supportive, kind tone**.
+- Use a supportive, kind tone.
 
 
 ### 2. **Instructional Style**
-- Break explanations into **simple steps**.
-- Use **plain language**, avoid jargon unless explained.
+- Break explanations into simple steps.
+- Use plain language, avoid jargon unless explained.
 
 
 ### 3. **Response Format**
@@ -60,12 +60,12 @@ Be encouraging , friendly and supportive.
 -  A balance between creativity and clarity, generating diverse yet sensible responses.
 
 
- ## Prompt Techniques 
+ ### Prompt Techniques 
   1. Zero shot technique when chatbot act as Teacher assistant for fullstack devlopment ,explaining concepts with examples.
 
   2. Chain of thought promt technique when  teacher chatbot solves programming tasks.
 
-  ## User Input and Response
+  ### User Input and Response
   1. Chatbot acts as Teacher Assitant and explain concepts
     ![image](./TeacherAssistant_1.png)
 
@@ -82,41 +82,34 @@ Be encouraging , friendly and supportive.
   2. Chain of Thought technique
      ![image](./TeacherAssitant4_Chain_Of_Thought.png) 
 
-  ## Challenges & solutions
+  ### Challenges & solutions
 
   1. The AI chatbot might sometimes generate responses that are way too formal, which could reduce the encouragement needed for effective teaching.
   
 - **Solution**: 
   - **System Instruction Adjustment**: Mention the AI’s personality in the system instructions:
-    - "Be friendly, supportive, and encouraging. 
+    - Be friendly, supportive, and encouraging. 
 
-  - **LLM Parameter Adjustment**:
-    - **Temperature (0.5 – 0.7)**: Setting this range ensures the model generates responses that feel little close , balancing creativity with a supportive tone.
-    - **Top-p (0.7 – 0.8)**: This range allows the model to select diverse words, adding variety while maintaining the supportive and positive tone.
-
-
+ 
  2. The AI might sometimes provide explanations that are too technical or difficult for learners to understand.
   
 - **Solution**:
   - **System Instruction Adjustment**: 
-    - "Explain concepts in simple, easy-to-understand language. Break down complex ideas into smaller steps."
+    - Explain concepts in simple, easy-to-understand language. Break down complex ideas into smaller steps.
 
-  - **LLM Parameter Adjustment**:
-    - **Temperature (0.5 – 0.7)**: This helps the model avoid  technical jargon while ensuring creativity in finding simple  explanations.
-    - **Top-p (0.7 – 0.8)**: It  allow the model to generate varied explanations that are still easy to follow and approachable.
-
-
-
-3. The AI may sometimes not provide enough guidance for students when reviewing their code.
+ 3. The AI may sometimes not provide enough guidance for students when reviewing their code.
   
 - **Solution**:
   - **System Instruction Adjustment**: 
     - Provide step-by-step guidance on how to fix issues. Appreciate and suggest improvements for the areas  which is required.
 
-  - **LLM Parameter Adjustment**:
-    - **Temperature (0.5 – 0.7)**: This ensures the model can be flexible in its responses, maintaining a balance of creativity and support while reviewing code.
+  **LLM Parameter Adjustment**:
+    
+    -**Temperature (0.5 – 0.7)**: This ensures the model can be flexible in its responses, avoid jargon,maintaining a balance of creativity and support while reviewing code.
 
-    - **Top-p (0.7 – 0.8)**: This allows the model to suggest multiple ways to solve a problem.
+    - **Top-p (0.7 – 0.8)**: This allows the model to suggest multiple ways to solve a problem,generate varied explanations that are still easy to follow and approachable,maintaining the supportive and positive tone.
+
+   
 
 
 

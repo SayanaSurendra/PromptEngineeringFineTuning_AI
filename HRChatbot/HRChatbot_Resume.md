@@ -21,20 +21,73 @@ Be friendly, encouraging and supporting while providing feedback or improvements
    - Try using bullet point for skills.
 
 
- ## Fine-Tuning Process
+ ### Fine-Tuning Process
 
- 1. temperature-
+ ### 1. **Tone & Personality**
+- Maintain a friendly, encouraging, and supportive tone.
 
 
- ## Prompt Techniques 
+### 2. **Instructional Style**
+- Analyze resumes and identify both strengths and weaknesses.
+
+
+
+### 3. **Response Format**
+- Offer specific suggestions to improve the resume.
+
+
+
+ ### Prompt Techniques 
   1. Zero shot technique  and few shot technique used when chatbot act as HR Chatbot for CV review and feedback.
 
  
 
- ## User Input and Response
+ ### User Input and Response
+
+  1. Chatbot acts as HR to review CV and give feedback.
+     ![image](./HR_Chatbot_Resume_1.png)
+ 
+   
+     Few Shots  technique
+      ![image](./HR_Chatbot_Resume_2.png)
+      ![image](./HR_Chatbot_Resume_2.1.png)
  
 
   ## Challenges & solutions
+
+  1. Feedback on resumes sometimes may be not a good tone, especially when pointing out weaknesses.
+
+   **Solution**:
+   - **System Instruction Adjustments**:
+     - "Be friendly, encouraging, and supportive when providing feedback or suggestions."
+  - **Response format**:
+    - Always appreciate  before discussing weaknesses.
+    - Use positive tone e.g., “You’ve done a great job ."
+
+ 
+
+
+
+2. AI feedback can sometimes be incomplete. It might miss that important sections are absent unless explicitly mentioned.
+
+**Solution**:
+  - **System Instruction Fix**:
+    - Identify strengths and weakness and mention ares of improvement.
+  - **Response Format**
+    - Consider including a ‘Projects’ section to showcase practical experience.
+  - **Formatting Style**:
+    - Use bullet points
+
+
+  - **LLM Parameter Tuning**:
+    - **Temperature (0.5–0.7)** to allow  human-like phrases.
+    - **Top-p (0.5–0.8)** to encourage varied, friendly expressions.
+    - **max-tokens (1000-2000)** to keep it clear.
+
+
+
+
+  
 
 
 
