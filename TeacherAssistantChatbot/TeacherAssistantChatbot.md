@@ -84,8 +84,7 @@ Be encouraging , friendly and supportive.
 
   ## Challenges & solutions
 
-  1. **A Supportive and Encouraging Tone**:
- The AI chatbot might sometimes generate responses that are way too formal, which could reduce the encouragement needed for effective teaching.
+  1. The AI chatbot might sometimes generate responses that are way too formal, which could reduce the encouragement needed for effective teaching.
   
 - **Solution**: 
   - **System Instruction Adjustment**: Mention the AI’s personality in the system instructions:
@@ -96,8 +95,7 @@ Be encouraging , friendly and supportive.
     - **Top-p (0.7 – 0.8)**: This range allows the model to select diverse words, adding variety while maintaining the supportive and positive tone.
 
 
- 2. **Explaining Complex Concepts Clearly**:
- The AI might sometimes provide explanations that are too technical or difficult for learners to understand.
+ 2. The AI might sometimes provide explanations that are too technical or difficult for learners to understand.
   
 - **Solution**:
   - **System Instruction Adjustment**: 
@@ -109,8 +107,7 @@ Be encouraging , friendly and supportive.
 
 
 
-3.  **Providing Constructive Feedback on Code**:
-The AI may sometimes not provide enough guidance for students when reviewing their code.
+3. The AI may sometimes not provide enough guidance for students when reviewing their code.
   
 - **Solution**:
   - **System Instruction Adjustment**: 
